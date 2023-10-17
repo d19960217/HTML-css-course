@@ -23,7 +23,30 @@
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    column-gap: 15px;
+   row-gap: 30px;
+  
+  
  }
+
+@media(max-width:600px){
+  .video-container-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(min-width:751px)and(max-width:999px){
+  .video-container-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(min-width:1000px){
+  .video-container-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
 
  .video-preview{
    
@@ -40,16 +63,33 @@
  .channel-picture1{
    
    vertical-align: top;
+
  }
  .video-info{
    
    width:200px
  }
  .profile-picture{
-   width: 90%;
+   width: 80%;
    border-radius: 50px;
 
  }
  .thumbnail-row{
-   margin-bottom: 12px;
+   margin-bottom: 8px;
+   position: relative;
+ }
+
+ .video-time{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  
+  font-size: 12px;
+  font-weight: 700;
+
+  padding: 4px 10px;
+  border-radius: 2px;
+
  }

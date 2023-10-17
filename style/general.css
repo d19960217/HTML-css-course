@@ -4,7 +4,13 @@
   margin-bottom: 0;
 }
 
-.body{
+body{
   margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-bottom: 1000px;
+  padding-right: 24px;
+  background-color: rgb(rgb(248, 248, 248), green, blue);
+  color: red;
   
 }
